@@ -126,16 +126,41 @@ CREATE TABLE IF NOT EXISTS video_dna (
     analyzed_at           TEXT DEFAULT (datetime('now'))
 );
 
--- ── Viral Format Library (#18) ───────────────────────────────────────────
+-- ── Video Format Library / Format DNA (VIDEO_FORMAT_LIBRARY) ──────────────
+-- Formato = COMO uma ideia é embalada. Composto em camadas (base/delivery/hook/story/edit/audio).
 CREATE TABLE IF NOT EXISTS viral_formats (
-    id             INTEGER PRIMARY KEY AUTOINCREMENT,
-    vf_id          TEXT UNIQUE,                 -- VF-xxxx
-    name           TEXT NOT NULL,
-    structure      TEXT, hook_type TEXT, timeline_json TEXT,
-    duration_s     INTEGER, editing TEXT, delivery TEXT, retention TEXT,
-    context        TEXT, creators_using TEXT, avg_performance REAL,
-    vitoria_fit    INTEGER, stage TEXT,          -- emerging|growing|mainstream|saturated|declining
-    created_at     TEXT DEFAULT (datetime('now'))
+    id                 INTEGER PRIMARY KEY AUTOINCREMENT,
+    format_code        TEXT UNIQUE,             -- FMT-001 | VF-xxxx (externo) | VOF-xxxx (original)
+    name               TEXT NOT NULL,
+    category           TEXT,
+    source             TEXT,                    -- KNOWN|CREATOR_INTEL|VIRAL_CLUSTER|REFERENCE|INTERNAL_TEST|VITORIA_ORIGINAL
+    description        TEXT,
+    primary_objective  TEXT,                    -- GROWTH|AUTHORITY|CONNECTION|DESIRE|CONVERSION
+    secondary_objectives TEXT,
+    -- composição em camadas (#9/#10)
+    base_format        TEXT,
+    delivery_style     TEXT,                    -- DEL-xxx
+    hook_engine        TEXT, visual_hook TEXT,  -- HK-xxx / VH-xxx
+    story_engine       TEXT,                    -- SE-xxx
+    editing_style      TEXT,                    -- EDIT-xxx
+    audio_strategy     TEXT,
+    -- DNA
+    structure          TEXT, timeline_json TEXT, duration_s INTEGER,
+    retention_devices  TEXT, payoff TEXT, cta TEXT,
+    signature_compat   TEXT,
+    best_pillars       TEXT, best_platforms TEXT,
+    transferability    TEXT,                    -- JSON: founder,business,brand,market,faith,lifestyle,personal,joy,ugc 0-10
+    reference_creators TEXT, reference_videos TEXT,
+    effort             TEXT,                    -- LOW|MEDIUM|HIGH
+    repeatability      INTEGER,
+    vitoria_fit        INTEGER,
+    stage              TEXT,                    -- emerging|growing|mainstream|saturated|declining
+    status             TEXT DEFAULT 'HYPOTHESIS', -- HYPOTHESIS|REFERENCE|TESTING|VALIDATED_EXT|VALIDATED_VITORIA|STRONG|DECLINING|SATURATED|RETIRED
+    -- performance acumulada (#8)
+    test_count         INTEGER DEFAULT 0,
+    avg_views INTEGER, median_views INTEGER, follow_rate REAL, share_rate REAL,
+    save_rate REAL, content_roi REAL,
+    created_at         TEXT DEFAULT (datetime('now'))
 );
 
 -- ── Experimentos (#46) ───────────────────────────────────────────────────
@@ -251,4 +276,4 @@ CREATE TABLE IF NOT EXISTS audio_library (
 CREATE INDEX IF NOT EXISTS idx_content_platform ON content(platform, published_at);
 CREATE INDEX IF NOT EXISTS idx_content_pillar   ON content(pillar);
 CREATE INDEX IF NOT EXISTS idx_dna_ref          ON video_dna(ref_id);
-CREATE INDEX IF NOT EXISTS idx_vf               ON viral_formats(vf_id);
+CREATE INDEX IF NOT EXISTS idx_vf               ON viral_formats(format_code, status);
