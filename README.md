@@ -21,7 +21,7 @@ Sistema operacional de inteligência, conteúdo e marca pessoal.
 | `RECOMMENDED_STACK.md` | Stack ideal: ESSENTIAL NOW / NEXT / LATER + custos. |
 | `SETUP_CHECKLIST_VITORIA.md` | **Só o que depende de você** (logins, chaves, autorizações). |
 | `QUICK_WINS.md` | O que já funciona agora, sem nada a mais. |
-| `brand/` | **Constituição de Marca** (01–14). O DNA que guia toda recomendação. |
+| `brand/` | **Constituição de Marca** (01–15, inclui Personal Context). O DNA que guia toda recomendação. |
 | `voice/` | Corpus de voz: `approved/` e `rejected/` — treina o VITÓRIA_FIT do script-writer. |
 | `modules/` | Engines/agentes operacionais: Intelligence→Content Engine, Chief of Content, `routines/` (Opportunity Watch, Radar diário, Weekly Review, Planejamento Editorial). |
 | `data/` | Data warehouse (SQLite local agora → Supabase depois) + esquema. |

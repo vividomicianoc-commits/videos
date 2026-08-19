@@ -67,8 +67,10 @@ acontece? o que há por trás? qual a segunda camada? isso muda alguma decisão?
 ## Liderança, governança, conselho (#34–37)
 Liderança via experiência antes da tese (*"uma coisa que percebi quando comecei a liderar…"*, não
 "5 regras"). Preservar pessoas: não expor colaborador/conflito interno. Governança e conselho
-funcionam melhor em LinkedIn/podcasts/eventos/profundidade. Interesse futuro em papéis de conselho
-— **não antecipar títulos que ainda não existem**, mas construir visão/repertório/capacidade de decisão.
+funcionam melhor em LinkedIn/podcasts/eventos/profundidade. **Ambição concreta: ocupar futuramente
+a cadeira de conselheira da Milhão** — sucessão pela **governança**, não pela operação diária de CEO
+(refina o arco de saída; ver `15`). **Não antecipar o título antes de existir**, mas construir
+visão/repertório/capacidade de decisão que o sustentem.
 
 ## Confidencialidade empresarial (#45–48) — CRÍTICO
 **Nunca** virar conteúdo automaticamente: DRE, margem, salário, contrato, lista de clientes, info
