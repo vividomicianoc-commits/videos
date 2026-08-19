@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-08-19",
+  "source": "Supermetrics",
+  "window": "last_30_days",
+  "timezone": "America/Sao_Paulo",
+  "instagram": {
+    "ds_id": "IGI",
+    "account": "vitoriadomicianoc",
+    "account_id": "17841401193640476",
+    "followers_total": 2684,
+    "following": 2372,
+    "media_count": 184,
+    "new_followers_30d": 124,
+    "profile_views_30d_raw": 242701,
+    "reach_30d_raw": 1129,
+    "_note": "profile_views/reach inconsistentes (API rotula profile_views mas descricao sugere content views; reach baixo demais) -> confianca LOW, reverificar com query diaria AccountInsightsDaily"
+  },
+  "tiktok": {
+    "ds_id": "TIKBA",
+    "report_type": "profile",
+    "current_followers": 1096,
+    "video_views_30d": 89154,
+    "profile_views_30d": 671,
+    "likes_30d": 2912,
+    "comments_30d": 65,
+    "shares_30d": 35,
+    "_note": "profile__new_followers retornou 31168 = soma de snapshots diarios de followers, NAO net-new; descartado"
+  },
+  "confidence": {
+    "HIGH": ["ig.followers_total", "ig.new_followers_30d", "ig.media_count", "tt.current_followers", "tt.video_views_30d", "tt.likes/comments/shares_30d"],
+    "LOW": ["ig.profile_views_30d_raw", "ig.reach_30d_raw"]
+  }
+}

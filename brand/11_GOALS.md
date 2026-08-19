@@ -60,21 +60,35 @@ esforço = alto ROI). Estimar **horas operacionais poupadas**.
 Joy Power→Joyeat`. Pré-lançamento mede acompanhamento/waitlist/intenção, não só venda (#34).
 
 ## Metas numéricas — baseline primeiro (#49–52)
-**Não inventar meta sem baseline.** Antes: coletar IG/TikTok/LinkedIn atuais + últimos 30–90 dias.
-Para cada indicador: `FLOOR (mínimo) · TARGET (meta) · STRETCH (excepcional)`. Horizontes:
-WEEKLY (execução/aprendizado) · MONTHLY (growth) · QUARTERLY (posicionamento/negócio) ·
-12M (transformação) · 3A (brand equity) · 10A (independe da fase atual).
+**Não inventar meta sem baseline.** Para cada indicador: `FLOOR (mínimo) · TARGET (meta) ·
+STRETCH (excepcional)`. Horizontes: WEEKLY · MONTHLY · QUARTERLY · 12M · 3A · 10A.
 
-| Métrica | Baseline `[coletar]` | FLOOR | TARGET | STRETCH |
-|---|---|---|---|---|
-| Seguidores IG / TikTok / LinkedIn | | | | |
-| Net follower growth / mês | | | | |
-| Follows por 1.000 views | | | | |
-| Non-follower reach (%) | | | | |
-| Comentários qualificados / semana | | | | |
-| Inbound comercial qualificado / mês | | | | |
-| Vitória Touch Time (min/conteúdo) | | | | |
-| % conteúdo em FOUNDER/BUSINESS | | | | |
+### BASELINE INICIAL — 2026-08-19 (fonte: Supermetrics IGI/TIKBA · últimos 30 dias)
+> Provenance: `@vitoriadomicianoc` (IG id 17841401193640476) + TikTok Organic. FACT salvo o marcado.
+> Fuso America/Sao_Paulo. Metas a definir junto com Vitória.
+
+| Métrica | Baseline (30d) | Confiança | FLOOR | TARGET | STRETCH |
+|---|---|---|---|---|---|
+| **Seguidores Instagram** (total) | **2.684** | HIGH | | | |
+| **Seguidores TikTok** (total) | **1.096** | HIGH | | | |
+| Seguidores LinkedIn / YouTube | `[conectar]` | — | | | |
+| **Novos seguidores IG** (30d) | **+124** (~4,6%/mês) | HIGH | | | |
+| **Posts publicados IG** (total) | 184 | HIGH | | | |
+| **Video views TikTok** (30d) | **89.154** | HIGH | | | |
+| **Engajamento TikTok** (30d) | 2.912 likes · 65 comentários · 35 shares | HIGH | | | |
+| Views-por-seguidor TikTok (30d) | ~81× (89.154 ÷ 1.096) — descoberta alta, base pequena | HIGH | | | |
+| Alcance IG / "profile views" (30d) | reach ~1.129 · views ~242.701 | **LOW — reverificar** | | | |
+| Follows por 1.000 views | `[calcular após query limpa]` | — | | | |
+| Comentários qualificados / semana | `[audience intelligence]` | — | | | |
+| Inbound comercial qualificado / mês | `[CRM]` | — | | | |
+| Vitória Touch Time (min/conteúdo) | `[medir na produção]` | — | | | |
+| % conteúdo em FOUNDER/BUSINESS | `[content tagging]` | — | | | |
+
+**Leitura de 1 minuto:** audiência total ~**3,8k** (2.684 IG + 1.096 TikTok). O **TikTok gera muito
+mais descoberta** (89k views/mês) do que o tamanho da base sugere — motor de crescimento, mas com
+**baixa conversão em seguidor** até aqui (grande alavanca). Instagram tem base maior e mais
+madura (184 posts), mas o alcance real precisa de uma query limpa. Comentários baixos vs likes no
+TikTok → oportunidade de **profundidade de conversa** (hooks que puxam comentário).
 
 ## Horizontes de marca (#56–58)
 - **12 meses:** patamar superior em reconhecimento, audiência, distribuição, autoridade, consistência, influência, oportunidades, integração Joyeat/Joy Power.
