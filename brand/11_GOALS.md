@@ -77,18 +77,22 @@ STRETCH (excepcional)`. Horizontes: WEEKLY · MONTHLY · QUARTERLY · 12M · 3A 
 | **Video views TikTok** (30d) | **89.154** | HIGH | | | |
 | **Engajamento TikTok** (30d) | 2.912 likes · 65 comentários · 35 shares | HIGH | | | |
 | Views-por-seguidor TikTok (30d) | ~81× (89.154 ÷ 1.096) — descoberta alta, base pequena | HIGH | | | |
-| Alcance IG / "profile views" (30d) | reach ~1.129 · views ~242.701 | **LOW — reverificar** | | | |
-| Follows por 1.000 views | `[calcular após query limpa]` | — | | | |
+| **Content views IG** (30d) | **~242.700** (API "profile views" = views de conteúdo) | HIGH ✅ | | | |
+| **Gross reach IG** (30d) | **~94.500** (soma de reach diário; único ≤ isso) | HIGH ✅ | | | |
+| **Follows por 1.000 views (IG)** | **~0,51** (124 ÷ 242.700 × 1000) — baixo, grande alavanca | HIGH | | | |
+| Outlier IG | **pico viral 02–04/ago** (reach 26.346 → 18.178 → 11.111 vs base ~1.000/dia) → autópsia | HIGH | | | |
 | Comentários qualificados / semana | `[audience intelligence]` | — | | | |
 | Inbound comercial qualificado / mês | `[CRM]` | — | | | |
 | Vitória Touch Time (min/conteúdo) | `[medir na produção]` | — | | | |
 | % conteúdo em FOUNDER/BUSINESS | `[content tagging]` | — | | | |
 
-**Leitura de 1 minuto:** audiência total ~**3,8k** (2.684 IG + 1.096 TikTok). O **TikTok gera muito
-mais descoberta** (89k views/mês) do que o tamanho da base sugere — motor de crescimento, mas com
-**baixa conversão em seguidor** até aqui (grande alavanca). Instagram tem base maior e mais
-madura (184 posts), mas o alcance real precisa de uma query limpa. Comentários baixos vs likes no
-TikTok → oportunidade de **profundidade de conversa** (hooks que puxam comentário).
+**Leitura de 1 minuto:** audiência total ~**3,8k** (2.684 IG + 1.096 TikTok). Descoberta forte nas
+duas redes — IG **~242k content views** + ~94k gross reach/mês; TikTok **89k views** (~81× a base).
+Mas a **conversão em seguidor é o gargalo**: só **+124** seguidores IG no mês e **~0,51 follows por
+1.000 views** — muita gente vê, pouca segue. **Maior alavanca isolada = followability** (bio,
+promessa editorial, "por que seguir"). Comentários baixos vs likes → oportunidade de profundidade
+de conversa. **Achado:** pico viral no IG em **02–04/ago** (reach ~26k/18k/11k vs base ~1k/dia) —
+vale uma **autópsia** (que conteúdo foi, e por que converteu pouco apesar do alcance).
 
 ## Horizontes de marca (#56–58)
 - **12 meses:** patamar superior em reconhecimento, audiência, distribuição, autoridade, consistência, influência, oportunidades, integração Joyeat/Joy Power.

@@ -11,9 +11,11 @@
     "following": 2372,
     "media_count": 184,
     "new_followers_30d": 124,
-    "profile_views_30d_raw": 242701,
-    "reach_30d_raw": 1129,
-    "_note": "profile_views/reach inconsistentes (API rotula profile_views mas descricao sugere content views; reach baixo demais) -> confianca LOW, reverificar com query diaria AccountInsightsDaily"
+    "content_views_30d": 242700,
+    "gross_reach_30d": 94500,
+    "follows_per_1k_views": 0.51,
+    "outlier": "pico viral 02-04/ago: reach diario 26346/18178/11111 vs base ~1000/dia -> candidato a Content Autopsy",
+    "_note": "RESOLVIDO via query diaria AccountInsightsDaily: o 'reach 1129' anterior era so o ultimo dia (reach nao-somavel); 242701 = soma de content views do mes. API rotula 'profile_views' mas e content views. Confianca HIGH."
   },
   "tiktok": {
     "ds_id": "TIKBA",
