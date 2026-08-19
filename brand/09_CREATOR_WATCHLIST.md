@@ -164,6 +164,69 @@ internacional (cross-market, achar comportamentos/formatos antes de saturarem lo
 
 ---
 
+## CREATOR DEEP DIVE — Growth & Virality Intelligence (#83–128)
+Para creators **P1 CORE** (ou especialmente importantes), não basta analisar o conteúdo atual —
+reconstruir **como a pessoa chegou onde chegou**. Objetivo (#128): entender como cresceram, como
+viralizam, como transformaram viralização→audiência→marca→negócio, e **quais mecanismos adaptar
+para Vitória agora**. Transformar referência em **estratégia de crescimento executável**, não
+inspiração passiva. Output em `intelligence/creators/CREATOR_PLAYBOOK_[NAME].md` (template disponível).
+
+**Trajetória (#85–87):** origem (ponto de partida: quando começou, plataforma, profissão,
+posicionamento inicial), fases da marca pessoal, e **Growth Inflection Points** (primeiro viral,
+mudança de formato/plataforma, collab, produto, podcast, trend, mídia).
+
+**Análise de viralização (#88–93):** localizar o **primeiro breakout** (Video DNA quando a mídia
+existir) e a **Viral Timeline** (`date · content · views · multiplier · format · topic · hook · why
+it mattered`). **Não analisar só o maior viral** — o creator transformou viralização em
+crescimento? Diferenciar **Accidental Viral** × **Repeatable Virality** (múltiplos outliers por
+engenharia recorrente — os mais relevantes). Responder: **"qual é o sistema de viralização dessa
+pessoa?"** (hook, tensão, opinião, tema, formato, volume, storytelling, timing, edição, shareability, comunidade, distribuição).
+
+**A máquina por trás (#94–99):** Content Engine (frequência, séries, espontâneo vs produzido,
+repurposing, plataformas), Content Supply (de onde vêm as histórias — negócio, lifestyle,
+audiência, viagens), e as **evoluções** de formato/hook/storytelling/edição. Insight-chave (#96/#99):
+crescimento raramente é "postou mais" — geralmente é **encontrou uma embalagem melhor para a mesma
+expertise**; e produção maior nem sempre performa melhor que naturalidade maior.
+
+**Posicionamento & audiência (#100–104):** Positioning Evolution (ex.: creator de marketing →
+empresária → founder → referência de negócios — **muito relevante para Vitória**), Category
+Expansion (como falou de novos assuntos sem perder audiência → ajuda Vitória a equilibrar
+business+lifestyle+fé+Joy), Audience Relationship (**por que as pessoas voltam?**), Followability
+(**o que faz querer acompanhar a próxima parte da vida dessa pessoa?** — ponto crítico p/ Vitória),
+Recognizability (princípio, sem copiar assinatura).
+
+**Distribuição, timing, rede (#105–112):** estratégia por plataforma + cross-platform breakout
+(como transferiu audiência), timing/momento cultural, **Luck vs System** (classificar fatores:
+STRUCTURAL/STRATEGIC/TIMING/NETWORK/LUCK/UNKNOWN — evita copiar a coisa errada), network effect,
+brand associations, commercial evolution (como audiência virou valor) e o **Founder Flywheel**
+(`personal brand → audience → business → product → customer → content → personal brand`).
+
+**O que Vitória pode adaptar (#113–117) — seção obrigatória em todo Deep Dive:**
+- **WHAT VITÓRIA CAN ADAPT:** COPY THE PRINCIPLE · FORMAT · CADENCE · CONTENT SYSTEM · DISTRIBUTION LOGIC · EXPERIMENT.
+- **WHAT VITÓRIA SHOULD NOT COPY:** personalidade, bordão, linguagem, polêmica, exposição, estética incompatível, narrativa que depende da história daquele creator.
+- **COPY ≠ CLONE (#116):** replicar arquitetura/estrutura/estratégia/mecanismo/cadência/técnica — nunca texto/história/bordão/identidade/IP.
+- **Copy Score (#115):** `TRANSFERABILITY · VITÓRIA FIT · EXPECTED IMPACT · EFFORT · ORIGINALITY RISK` (0–10).
+- **VITÓRIA VERSION (#117):** todo elemento termina numa versão construída de uma experiência **verdadeira** dela (extrair o mecanismo — ex.: *specific origin story + tension* — não a história alheia).
+
+**Do aprendizado ao teste (#118/#119, #123/#124, #127):** sinal forte de transferibilidade →
+**Viral Format Test Plan** (ex.: VF-024, 3 conteúdos em 14 dias, pilares X/Y/Z, métrica
+follows/1k+retention+shares). Se falhar, distinguir **FORMAT × EXECUTION** antes de descartar. Todo
+Deep Dive termina com **3–5 testes** concretos (formato · hipótese · conteúdo possível · métrica ·
+prazo) — nunca "inspire-se". **Viral Capitalization (#124):** quando Vitória tiver um outlier, o
+sistema consulta o que os creators fazem *depois* de viralizar (parte 2, série, aprofundamento) →
+*"como aproveitamos essa janela?"* — não deixar viral isolado morrer.
+
+**Comparar e acumular (#121/#122, #125/#126):** após vários Deep Dives, comparar (o que os que
+crescem rápido têm em comum? o que founders fazem diferente de influencers?) e manter uma **Growth
+Pattern Library** (`GP-001` Repeatable Series · `GP-002` Founder Build in Public · `GP-003`
+Contrarian Expertise · `GP-004` Lifestyle+Authority Blend · `GP-005` Viral→Follow-up · `GP-006`
+Comment-to-Content Loop…). **Output nunca genérico (#126):** não *"ela cresceu porque é
+autêntica"* — sim *"dos 20 maiores outliers, 13 abrem com conflito pessoal antes do contexto;
+mediana de duração X; 1º visual change em Y s; formato repetido Z vezes; após o 1º breakout,
+4 variações da mesma estrutura em 2 semanas."*
+
+---
+
 ## A LISTA (`[VITÓRIA: preencher com 10–20 @s]`)
 Me passe os handles e eu preencho tudo (categoria, país, prioridade, primary_territory,
 why_monitor, what_to_learn) e insiro na tabela `creators`. Sugestão de cobertura inicial:
