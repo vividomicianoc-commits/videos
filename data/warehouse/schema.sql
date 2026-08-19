@@ -230,6 +230,24 @@ CREATE TABLE IF NOT EXISTS product_claims (
 CREATE INDEX IF NOT EXISTS idx_products_brand ON products(brand, line, status);
 CREATE INDEX IF NOT EXISTS idx_claims_product ON product_claims(product_id, regulatory_status);
 
+-- ── Audio Library (12_CONTENT_PLAYBOOK #28) — música/som com values fit ──
+CREATE TABLE IF NOT EXISTS audio_library (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    audio_code      TEXT,                       -- AUD-001
+    title           TEXT, artist TEXT,
+    type            TEXT,                        -- song | sound | sfx
+    category        TEXT,                        -- VIRAL|RECOGNIZABLE|EMOTIONAL|FOUNDER|BUSINESS|LIFESTYLE|FAITH|UGC|SIGNATURE
+    trend_status    TEXT,                        -- emerging|growing|mainstream|saturated|declining
+    lyrics_fit      INTEGER,                     -- 0-10 (letra × valores/fé, ver brand/10)
+    values_fit      INTEGER,                     -- 0-10
+    content_fit     TEXT,
+    platform        TEXT,
+    performance     TEXT,
+    license_status  TEXT,                        -- organic-ok | needs-license | cleared-commercial
+    lyrics_summary  TEXT,
+    added_at        TEXT DEFAULT (datetime('now'))
+);
+
 CREATE INDEX IF NOT EXISTS idx_content_platform ON content(platform, published_at);
 CREATE INDEX IF NOT EXISTS idx_content_pillar   ON content(pillar);
 CREATE INDEX IF NOT EXISTS idx_dna_ref          ON video_dna(ref_id);
