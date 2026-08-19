@@ -123,6 +123,43 @@ CREATE TABLE IF NOT EXISTS provenance (
     collected_at  TEXT DEFAULT (datetime('now'))
 );
 
+-- ── Product Intelligence (Joy Power / Joyeat, #50/#51 do doc Joy Power) ───
+-- Conteúdo de produto DEVE respeitar o status real. Nunca comunicar acima do status.
+CREATE TABLE IF NOT EXISTS products (
+    id                   INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_code         TEXT UNIQUE,          -- ex.: JP-DAY-001
+    brand                TEXT DEFAULT 'joypower', -- joypower | joyeat
+    line                 TEXT,                 -- DAY | MUSCLE | NIGHT (Joy Power)
+    name                 TEXT NOT NULL,
+    formula              TEXT,
+    flavor               TEXT,
+    status               TEXT DEFAULT 'IDEA',  -- IDEA|RESEARCH|FORMULATION|PROTOTYPE|TESTING|REGULATORY|PRODUCTION|READY|LAUNCHED|DISCONTINUED
+    target               TEXT,
+    price                TEXT,
+    packaging            TEXT,                 -- stick | canister | pouch | refil
+    launch_date          TEXT,
+    content_status       TEXT,                 -- IDEA→...→PUBLISHED (status editorial)
+    info_classification  TEXT DEFAULT 'INTERNAL', -- PUBLIC|TEASER|INTERNAL|CONFIDENTIAL
+    updated_at           TEXT DEFAULT (datetime('now'))
+);
+
+-- ── Claim Database (#52) — segurança regulatória p/ IA gerar conteúdo ─────
+-- Regra: nenhum claim sai sem estar aqui como APPROVED. Anvisa-safe por padrão.
+CREATE TABLE IF NOT EXISTS product_claims (
+    id                   INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_id           INTEGER REFERENCES products(id),
+    claim                TEXT NOT NULL,
+    source               TEXT,
+    evidence             TEXT,
+    regulatory_status    TEXT,                 -- APPROVED | PENDING | PROHIBITED
+    approved_language    TEXT,                 -- redação permitida
+    prohibited_language  TEXT,                 -- o que NUNCA dizer
+    reviewed_at          TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_products_brand ON products(brand, line, status);
+CREATE INDEX IF NOT EXISTS idx_claims_product ON product_claims(product_id, regulatory_status);
+
 CREATE INDEX IF NOT EXISTS idx_content_platform ON content(platform, published_at);
 CREATE INDEX IF NOT EXISTS idx_content_pillar   ON content(pillar);
 CREATE INDEX IF NOT EXISTS idx_dna_ref          ON video_dna(ref_id);
