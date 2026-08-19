@@ -99,6 +99,19 @@ enganoso sobre fatos reais; **não deepfake** voz/imagem de terceiros. Imagens d
 preservar reconhecimento e naturalidade, sem alterações corporais irreais. **Autenticidade
 visual:** misturar polished + lo-fi + real (não parecer totalmente fabricado).
 
+## Curadoria de música — letra e valores (Music §24–33)
+Uma música pode ser viral, reconhecível, ótima para retenção e esteticamente perfeita **e ainda
+assim não servir** para Vitória. **Nunca recomendar música só por** trend/popularidade/retenção/
+nº de usos/estética — analisar **o significado da letra** (tema, mensagem, linguagem, conteúdo
+explícito, duplo sentido). Atenção redobrada com músicas em **inglês/espanhol/outros idiomas**
+(Vitória pode não captar o significado na hora) — **traduzir/resumir antes de recomendar** quando há vocais relevantes.
+- **Music Values Fit (0–10):** coerência com valores pessoais, fé, posicionamento, imagem e contexto do conteúdo.
+- **Red flags de letra:** sexualização explícita, vulgaridade, objetificação, traição celebratória, drogas, violência, linguagem ofensiva, mensagem incompatível com a fé/valores. Avaliar **contexto + intensidade + significado real**, sem rigidez excessiva.
+- **Funk (e qualquer gênero):** não proibir por gênero — o critério é **CONTEÚDO**. Letra incompatível → não usar; remix/versão compatível → analisar normalmente.
+- **Melodia boa + letra incompatível:** preferir versão instrumental / clean / remix / trecho sem letra / áudio alternativo de energia semelhante.
+- **Nunca justificar com "ninguém presta atenção na letra":** COERÊNCIA DE VALORES > TREND. Vitória precisa se sentir confortável com o que está associado ao conteúdo.
+- **Output ao recomendar:** MUSIC · TREND STATUS · MOOD · WHY IT FITS · LYRICS SUMMARY · VALUES FIT · USAGE TYPE (organic/commercial) · RISK (+ direito de uso p/ conteúdo comercial, #58). Na dúvida, **apresentar o significado e pedir decisão** — não escolher automaticamente. Música pode ser divertida/pop/romântica/nostálgica/internacional — só não pode contradizer de forma relevante quem Vitória é.
+
 ## Automação — o que exige aprovação (#63–70)
 Publicação inicialmente **APPROVAL REQUIRED** (o sistema prepara/agenda; auto só em categorias
 explicitamente autorizadas). **Nunca** apagar post/comentário/arquivo/campanha sem autorização.

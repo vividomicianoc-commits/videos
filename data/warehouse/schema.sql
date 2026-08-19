@@ -58,6 +58,9 @@ CREATE TABLE IF NOT EXISTS creators (
     why_monitor       TEXT,
     what_to_learn     TEXT,                     -- sempre específico (não "inspiração")
     priority          TEXT DEFAULT 'P3',        -- P1 CORE | P2 IMPORTANT | P3 EXPLORATORY | P4 ARCHIVE
+    reference_type    TEXT,                     -- POSITIONING|FOUNDER|BUSINESS_AUTHORITY|FEMALE_FOUNDER|LIFESTYLE|STORYTELLING|GROWTH|FORMAT|VISUAL|NETWORKING|COMMERCIAL|SPECIALIST
+    relationship_potential TEXT,                -- REFERENCE_ONLY|LEARN|FOLLOW|ENGAGE|RELATIONSHIP_TARGET|COLLAB_POTENTIAL|BUSINESS_POTENTIAL
+    fit_scores        TEXT,                     -- JSON: {positioning,founder,female_brand,business,lifestyle,format,commercial} 0-10
     is_breakout       INTEGER DEFAULT 0,
     avg_views         INTEGER,                  -- baseline p/ performance multiplier
     breakout_score    REAL,

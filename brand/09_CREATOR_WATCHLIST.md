@@ -124,6 +124,46 @@ prazo: criar formatos que outros passem a copiar.**
 
 ---
 
+## POSITIONING REFERENCE MAP (#71–82) — peças do quebra-cabeça, não clones
+Mapa separado de pessoas cuja presença pública tem **semelhança estratégica** com o
+posicionamento desejado. Não procurar "gente igual" — procurar **peças diferentes do
+quebra-cabeça** (#71/#82). O sistema não responde *"essas são pessoas parecidas com você"* e sim
+**"essas representam as diferentes partes do posicionamento que você quer construir, e é isto que
+vale aprender de cada uma."** Objetivo: um **Reference System** que ajude a criar um posicionamento
+próprio, mais forte e difícil de reproduzir — não um modelo para copiar.
+
+**Tipos de referência (#72)** → campo `reference_type` em `creators`:
+`POSITIONING · FOUNDER · BUSINESS_AUTHORITY · FEMALE_FOUNDER · LIFESTYLE · STORYTELLING · GROWTH ·
+FORMAT · VISUAL · NETWORKING · COMMERCIAL · SPECIALIST`. Uma pessoa pode ser referência em **uma só** dimensão.
+
+**Fit por pessoa (#73)** → `fit_scores` (JSON, 0–10): `positioning · founder · female_brand ·
+business · lifestyle · content_format · commercial`.
+
+**Positioning Composite (#74/#75) — o mais importante:** não buscar "uma pessoa que seja Vitória".
+Combinar princípios: A (founder-led content) + B (feminilidade/lifestyle) + C (business authority)
++ D (storytelling) + E (monetização) → *"qual combinação de princípios cria um posicionamento
+único para Vitória?"*. Referências vêm de founders, influenciadoras, empresárias, executivas,
+creators, fashion/beauty/wellness founders, family business, business media (#74).
+
+**Specialist Map (#77):** além de founders/influencers, mapear especialistas (branding, marketing,
+consumer behavior, food, wellness, supplements, retail, luxury, beauty, creator economy, family
+business, sucessão, liderança, AI/business) para aprender/acompanhar/relacionar/convidar/usar como fonte.
+
+**Relationship potential (#78)** → campo `relationship_potential`: `REFERENCE_ONLY · LEARN ·
+FOLLOW · ENGAGE · RELATIONSHIP_TARGET · COLLAB_POTENTIAL · BUSINESS_POTENTIAL`. **Nem toda
+referência vira alvo de networking.**
+
+**Nunca adicionar nome sem justificar (#79/#80):** para cada referência — *why this person? what
+exactly should Vitória learn? what should NOT be copied? which format is worth studying? which
+positioning element is relevant?*. Para P1, um **Reference Brief:** WHO · WHY RELEVANT · POSITIONING
+· CONTENT STRENGTH · BEST FORMATS · RECENT OUTLIERS · VISUAL CODES · COMMERCIAL MODEL · VITÓRIA LEARNING.
+
+**Descoberta contínua (#76/#81):** quais founders/empresárias/female-creators-entering-business/
+business-creators-building-lifestyle estão viralizando ou com alto momentum — BR **e**
+internacional (cross-market, achar comportamentos/formatos antes de saturarem localmente).
+
+---
+
 ## A LISTA (`[VITÓRIA: preencher com 10–20 @s]`)
 Me passe os handles e eu preencho tudo (categoria, país, prioridade, primary_territory,
 why_monitor, what_to_learn) e insiro na tabela `creators`. Sugestão de cobertura inicial:
