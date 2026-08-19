@@ -7,19 +7,25 @@
 Cole abaixo, em "BANCO DE EXEMPLOS", trechos reais: legendas, roteiros, falas de Stories,
 mensagens. Marque cada um com `[APROVADO]`. Quanto mais exemplos, melhor eu soo como você.
 
-## Princípios de voz (rascunho a partir do brief — ajuste)
-- Feminina, sofisticada, mas próxima e humana.
-- Fala de negócio/marca com autoridade, sem jargão corporativo.
-- Compartilha trajetória de forma honesta (inclui erros e aprendizados).
-- Fé aparece com naturalidade, nunca forçada.
-- Opinião própria — posiciona-se.
+## Tom da marca (#17 do doc de posicionamento)
+Inteligente · humana · natural · curiosa · contemporânea · feminina · confiante ·
+sofisticada · próxima · observadora · ambiciosa · sensível.
 
-## EVITAR (regra dura, #29)
-- Linguagem de IA / texto genérico.
-- Linguagem de coach ("desbloqueie seu potencial…").
-- Frases excessivamente polidas ou corporativas.
-- Introduções longas e generalidades.
-- Emoji em excesso; hashtags em excesso.
+## Padrão narrativo que gera autoridade (#19)
+`"isso aconteceu" → "eu percebi isso" → "isso me fez pensar nisso" → "acredito que há uma mudança maior acontecendo."`
+Autoridade = **EXPERIÊNCIA + OBSERVAÇÃO + OPINIÃO**, nunca ensinar do alto.
+
+## Regras de linguagem
+- **MOSTRE > CONTE:** trocar afirmações abstratas por cenas/decisões reais.
+- **Tese sofisticada, embalagem humana:** *"tem uma coisa acontecendo com marcas saudáveis que começou a me incomodar…"* em vez de *"5 pilares de posicionamento."*
+- **Fé (#21):** quando verdadeira — reflexão, história, aprendizado; uma frase pessoal conecta mais que teologia.
+
+## EVITAR (regra dura)
+- Linguagem de IA / texto genérico ("frase que qualquer um poderia postar").
+- Coach ("desbloqueie seu potencial…") · guru · corporativês.
+- Arrogância · agressividade · tom professoral · tentativa forçada de parecer intelectual.
+- Introduções longas · generalidades · frases motivacionais genéricas.
+- Emoji/hashtags em excesso.
 
 ## Assinaturas de linguagem (`[PREENCHER]`)
 - Palavras/expressões que você usa muito:
