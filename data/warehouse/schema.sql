@@ -46,18 +46,46 @@ CREATE TABLE IF NOT EXISTS metric_snapshots (
     shares INTEGER, saves INTEGER, followers_gained INTEGER
 );
 
--- ── Creators monitorados (#11/#12) ───────────────────────────────────────
+-- ── Creators monitorados (09_CREATOR_WATCHLIST) ──────────────────────────
 CREATE TABLE IF NOT EXISTS creators (
-    id            INTEGER PRIMARY KEY AUTOINCREMENT,
-    handle        TEXT NOT NULL,
-    platform      TEXT NOT NULL,
-    category      TEXT,                        -- founder, wellness, fashion, faith...
-    region        TEXT,                        -- BR | INTL
-    is_breakout   INTEGER DEFAULT 0,           -- crescimento rápido antes do óbvio
-    avg_views     INTEGER,                     -- baseline p/ performance multiplier
-    notes         TEXT,
-    added_at      TEXT DEFAULT (datetime('now'))
+    id                INTEGER PRIMARY KEY AUTOINCREMENT,
+    handle            TEXT NOT NULL,
+    platform          TEXT NOT NULL,
+    country           TEXT,                     -- BR | INTL (US, EU, AU...)
+    category          TEXT,                     -- A Founders | B Business | C Lifestyle | D Wellness | E Faith | F Storytelling | G UGC | H International | I Breakout
+    follower_range    TEXT,
+    primary_territory TEXT,
+    why_monitor       TEXT,
+    what_to_learn     TEXT,                     -- sempre específico (não "inspiração")
+    priority          TEXT DEFAULT 'P3',        -- P1 CORE | P2 IMPORTANT | P3 EXPLORATORY | P4 ARCHIVE
+    is_breakout       INTEGER DEFAULT 0,
+    avg_views         INTEGER,                  -- baseline p/ performance multiplier
+    breakout_score    REAL,
+    status            TEXT DEFAULT 'active',     -- active | archived
+    notes             TEXT,
+    added_at          TEXT DEFAULT (datetime('now'))
 );
+
+-- ── Creator Content Database (#52) — funil metadata → outlier → Video DNA ─
+CREATE TABLE IF NOT EXISTS creator_content (
+    id                     INTEGER PRIMARY KEY AUTOINCREMENT,
+    creator_id             INTEGER REFERENCES creators(id),
+    platform               TEXT, url TEXT, published_at TEXT,
+    topic                  TEXT,
+    views INTEGER, likes INTEGER, comments INTEGER, shares INTEGER, saves INTEGER,
+    duration_s             INTEGER,
+    format_id              TEXT,                 -- VF-xxxx quando aplicável
+    hook_type              TEXT,
+    performance_multiplier REAL,                 -- views ÷ média recente do creator
+    outlier_class          TEXT,                 -- NORMAL | STRONG | OUTLIER | MAJOR_OUTLIER
+    vitoria_fit            INTEGER,
+    video_dna_status       TEXT DEFAULT 'none',  -- none | queued | done (→ video_dna.ref_id)
+    video_access_status    TEXT,                 -- VIDEO_AVAILABLE|VIDEO_PARTIAL|TRANSCRIPT_ONLY|METADATA_ONLY|UNAVAILABLE
+    notes                  TEXT,
+    collected_at           TEXT DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_creators_priority ON creators(priority, status);
+CREATE INDEX IF NOT EXISTS idx_ccontent_creator ON creator_content(creator_id, performance_multiplier);
 
 -- ── Video DNA (STRUCTURED, #17) ──────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS video_dna (
