@@ -144,6 +144,29 @@ CREATE TABLE IF NOT EXISTS opportunities (
     received_at   TEXT DEFAULT (datetime('now'))
 );
 
+-- ── Content Signal Database (Intelligence→Content Engine #26) ─────────────
+-- Sinal ≠ pauta. Todo sinal passa pelo filtro e recebe classificação/roteamento.
+CREATE TABLE IF NOT EXISTS content_signals (
+    id                     INTEGER PRIMARY KEY AUTOINCREMENT,
+    source                 TEXT,                 -- opportunity_watch | radar | weekly_review | creator_intel | audience_intel | calendar
+    detected_at            TEXT DEFAULT (datetime('now')),
+    category               TEXT,                 -- marketing, wellness, food, luxury, creator, trend...
+    description            TEXT,
+    second_layer           TEXT,                 -- a leitura não-óbvia (#9)
+    positioning_connection TEXT,                 -- qual pilar fortalece (#10)
+    pillar                 TEXT,
+    content_potential      TEXT,                 -- IGNORE|WATCH|SAVE|WEEKLY|PRIORITY|SAME_DAY (#6)
+    business_potential     TEXT,                 -- routing: CONTENT|BUSINESS|BOTH|NONE (#25)
+    fit_scores             TEXT,                 -- JSON: recency,vitoria,positioning,audience,authority,growth,content,timing 0-10 (#5)
+    urgency                TEXT,                 -- NOW | 24H | THIS_WEEK | EVERGREEN (#15)
+    expiration             TEXT,                 -- opportunity_expiration (#16)
+    status                 TEXT DEFAULT 'new',   -- new | approved | scripted | published | expired | dropped
+    action                 TEXT,
+    source_url             TEXT,                 -- para conteúdo factual (#27)
+    confidence             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_signals_status ON content_signals(status, content_potential, urgency);
+
 -- ── Provenance (#68): origem de todo dado externo ────────────────────────
 CREATE TABLE IF NOT EXISTS provenance (
     id            INTEGER PRIMARY KEY AUTOINCREMENT,

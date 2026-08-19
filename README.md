@@ -23,6 +23,7 @@ Sistema operacional de inteligência, conteúdo e marca pessoal.
 | `QUICK_WINS.md` | O que já funciona agora, sem nada a mais. |
 | `brand/` | **Constituição de Marca** (01–14). O DNA que guia toda recomendação. |
 | `voice/` | Corpus de voz: `approved/` e `rejected/` — treina o VITÓRIA_FIT do script-writer. |
+| `modules/` | Engines/agentes operacionais: Intelligence→Content Engine, Chief of Content, `routines/` (Opportunity Watch, Radar diário, Weekly Review, Planejamento Editorial). |
 | `data/` | Data warehouse (SQLite local agora → Supabase depois) + esquema. |
 | `intelligence/` | Video DNA, Viral Formats, perfis de creators. Vantagem proprietária acumulada. |
 | `scripts/` | Código local (Python/Node) para o que conector nenhum resolve. |
