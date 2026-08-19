@@ -67,7 +67,7 @@ Custo: 💚 incluso/grátis · 💛 baixo · 🟠 médio · 🔴 alto. Dificulda
 | Armazenar mídia/brandbooks | Google Drive | Drive MCP | 💚 | ★ | **READY** | subir brandbooks |
 | Opportunity CRM | Notion | Notion MCP | 💚 | ★ | **READY** | — |
 | Relationship intelligence | Notion + WebSearch | MCP + built-in | 💚 | ★★ | REQUIRES CUSTOM DEV | — |
-| Atribuição Joy ecosystem | UTMs + Shopify + Supabase | Shopify MCP + custom | 💛 | ★★ | REQUIRES CUSTOM DEV | — |
+| Atribuição Joy ecosystem | UTMs + Shopify + Supabase | Shopify MCP + custom | 💛 | ★★ | **READY (parcial)** — loja `JOY EAT FAST CASUAL LTDA` confirmada (xssy2x-ts.myshopify.com, BRL) | conectar UTMs/cupons ao conteúdo |
 
 ## F. Audiência & DM
 
