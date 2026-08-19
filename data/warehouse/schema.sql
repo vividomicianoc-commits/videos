@@ -34,7 +34,23 @@ CREATE TABLE IF NOT EXISTS content (
     source_of_traffic  TEXT,
     -- meta
     status             TEXT DEFAULT 'PUBLISHED', -- IDEA→APPROVED→...→ANALYZED→REPURPOSED (#34)
+    primary_goal       TEXT,                   -- GROWTH|AUTHORITY|CONNECTION|DESIRE|COMMUNITY|CONVERSION|NETWORKING|MONETIZATION (11 #61)
+    secondary_goal     TEXT,
+    success_definition TEXT,                   -- definido ANTES de publicar (11 #62)
+    vitoria_touch_time_min REAL,               -- carga mental / eficiência (11 #39)
+    signal_id          INTEGER REFERENCES content_signals(id), -- origem (Intelligence→Content ROI)
     created_at         TEXT DEFAULT (datetime('now'))
+);
+
+-- ── Authority Signal Database (11_GOALS #21) — evolução além do algoritmo ──
+CREATE TABLE IF NOT EXISTS authority_signals (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    code         TEXT,                          -- AUTH-001...
+    kind         TEXT,                          -- podcast_invite | founder_reached_out | brand_asked_opinion | event_invite | press | speaking | opportunity
+    description  TEXT,
+    counterpart  TEXT,
+    date         TEXT DEFAULT (datetime('now')),
+    source_url   TEXT
 );
 
 -- ── Snapshots de métricas (séries temporais; performance evolui pós-publicação)
