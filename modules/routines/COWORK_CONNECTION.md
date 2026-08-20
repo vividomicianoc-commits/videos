@@ -41,6 +41,18 @@ Nunca publique nada sem aprovação. Prepare, não publique.
 - **LER** o repo (Constituição, playbooks, histórico): ✅ funciona sem credencial — a sessão faz `git clone` do repo público e lê. É assim que as rotinas usam todo o conhecimento.
 - **ESCREVER de volta** (git push) exige token de escrita, que a sessão do Cowork não tem por padrão. **Não colar token em prompt** (inseguro).
 
+### Destino Notion (JÁ CRIADO — usar estes)
+Hub **VITÓRIA OS — Memória**: https://app.notion.com/p/3c222251fcf581dca890dd314c561c89
+| Rotina | Página Notion |
+|---|---|
+| Radar Estratégico | Radar Diário — `3c222251-fcf5-81d4-8167-f53d7bcfb3b5` |
+| Weekly Review | Weekly Review — `3c222251-fcf5-81c9-8079-ec5cbd7be616` |
+| Weekly Growth Analyst | Weekly Growth — `3c222251-fcf5-8102-8caa-fb51255ee71d` |
+| Opportunity Watch | Sinais — `3c222251-fcf5-8141-9750-febd843a7e33` |
+| Planejamento Editorial | Planejamento — `3c222251-fcf5-81fe-a527-f0326867a8cc` |
+| Creator Intelligence | Creators — `3c222251-fcf5-811b-8b8a-fd814acc10be` |
+| Autópsias | Autópsias — `3c222251-fcf5-81ce-aae1-ef7c7a9ca775` |
+
 ### Onde as rotinas GRAVAM o resultado (destino de escrita durável)
 Ordem de preferência (sem token, sem risco):
 1. **Notion** (o Cowork já tem escrita) — destino padrão. Criar uma base/página por rotina:
