@@ -37,10 +37,21 @@ Nunca publique nada sem aprovação. Prepare, não publique.
 - **Meu perfil na semana + resultado dos posts** → Weekly Growth Analyst (IG+TikTok reais + autópsia de outliers).
 - **Estratégias de posicionamento + conteúdo** → Chief of Content (`modules/chief_of_content.md`) cruzando tudo → pautas no Planejamento Editorial.
 
-## Nota técnica importante
-As rotinas **preparam e gravam** — nunca publicam. A memória vive no **git** (o container é
-efêmero). Por isso o passo "commit" no prefixo é obrigatório: é ele que faz o sistema **acumular
-inteligência semana após semana** em vez de recomeçar do zero.
+## Nota técnica importante — LER vs ESCREVER
+- **LER** o repo (Constituição, playbooks, histórico): ✅ funciona sem credencial — a sessão faz `git clone` do repo público e lê. É assim que as rotinas usam todo o conhecimento.
+- **ESCREVER de volta** (git push) exige token de escrita, que a sessão do Cowork não tem por padrão. **Não colar token em prompt** (inseguro).
+
+### Onde as rotinas GRAVAM o resultado (destino de escrita durável)
+Ordem de preferência (sem token, sem risco):
+1. **Notion** (o Cowork já tem escrita) — destino padrão. Criar uma base/página por rotina:
+   Radar Diário · Weekly Review · Weekly Growth · Sinais · Planejamento. É o "caderno" durável.
+2. **Google Drive** — alternativa (documento por semana).
+3. **git push** — só se Vitória criar um **token fine-grained** (escrita apenas neste repo) e guardá-lo
+   nos **secrets/env do ambiente Cowork** (nunca no texto do prompt). Opcional, não necessário.
+
+O git é o **cérebro só-leitura**; Notion/Drive é o **caderno de escrita**. A memória acumula do
+mesmo jeito. Ajustar o PREFIXO trocando "grave no caminho / faça commit" por "grave o resultado na
+página do Notion desta rotina" quando o destino for Notion.
 
 ## O que ainda destrava mais valor (ação de Vitória)
 - Conectar **YouTube/LinkedIn** no Supermetrics e ativar **Descript** → mais fontes para as rotinas.
