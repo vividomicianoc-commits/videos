@@ -36,7 +36,10 @@ agente que rode qualquer rotina **usa esta base**; nunca opere no escuro.
 | Video DNA (referências) | `intelligence/video-dna/` |
 | Autópsias de conteúdo | `intelligence/autopsies/` |
 | Playbook proprietário de crescimento | `brand/12_CONTENT_PLAYBOOK.md` |
+| **Ciclo semanal autônomo (orquestrador-mestre)** | `modules/weekly_content_engine.md` (13 núcleos, 24 passos, 3 gates, 7 entregáveis) |
+| Produção plano→publicado | `modules/content_production_pipeline.md` |
 | Orquestração sinal→conteúdo / Chief of Content | `modules/intelligence_to_content_engine.md`, `modules/chief_of_content.md` |
+| Templates dos 7 entregáveis semanais | `content/weekly/_templates/01–07` |
 | Rotinas agendadas (specs) | `modules/routines/` |
 | Dados / performance / creators / sinais | `data/warehouse/schema.sql` (15 tabelas) + `data/baseline_*.json` |
 
