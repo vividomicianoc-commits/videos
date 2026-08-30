@@ -1,0 +1,233 @@
+<title>Inteligência da Semana · W36</title>
+<meta name="description" content="Dossiê VITÓRIA OS — performance, mercado, trends de formato e plano editorial da semana 2026-W36.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --ground:#faf6f0; --surface:#fffdfa; --surface-2:#f3ece1;
+    --ink:#22271f; --muted:#5f6a5a; --faint:#8a9384;
+    --line:#e4dccf; --line-strong:#d2c7b4;
+    --green:#2f5d43; --green-soft:#4a7a5c; --amber:#c9772f; --rose:#b06a72;
+    --good:#3f7d54; --warn:#c9772f; --crit:#b0483f;
+    --shadow:0 1px 2px rgba(34,39,31,.05), 0 8px 24px rgba(34,39,31,.06);
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#14160f; --surface:#1c1f17; --surface-2:#242820;
+    --ink:#ede7dc; --muted:#a9b0a1; --faint:#7d8578;
+    --line:#2f342a; --line-strong:#3d4437;
+    --green:#7fb894; --green-soft:#6aa47f; --amber:#e2954f; --rose:#cf8890;
+    --good:#7fb894; --warn:#e2954f; --crit:#e08078;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#14160f; --surface:#1c1f17; --surface-2:#242820;
+    --ink:#ede7dc; --muted:#a9b0a1; --faint:#7d8578;
+    --line:#2f342a; --line-strong:#3d4437;
+    --green:#7fb894; --green-soft:#6aa47f; --amber:#e2954f; --rose:#cf8890;
+    --good:#7fb894; --warn:#e2954f; --crit:#e08078;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{background:var(--ground); color:var(--ink);
+    font-family:"Figtree",system-ui,sans-serif; line-height:1.6;
+    -webkit-font-smoothing:antialiased; margin:0;}
+  .wrap{max-width:850px; margin:0 auto; padding:clamp(20px,5vw,64px) clamp(18px,5vw,40px);}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif; font-weight:500; text-wrap:balance; line-height:1.12; margin:0;}
+  h1{font-size:clamp(2.1rem,6vw,3.4rem); letter-spacing:-.01em;}
+  h2{font-size:clamp(1.4rem,3.5vw,1.9rem); letter-spacing:-.01em;}
+  h3{font-size:1.12rem; font-weight:600;}
+  p{margin:0} a{color:var(--green-soft)}
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--amber); font-weight:500;}
+  .mono{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;}
+  .lede{font-size:1.14rem; color:var(--muted); max-width:60ch;}
+
+  header.hd{border-bottom:1px solid var(--line-strong); padding-bottom:28px; margin-bottom:8px;}
+  .kicker{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin-bottom:20px;}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+  .thesis{margin-top:22px; background:var(--surface); border:1px solid var(--line);
+    border-left:3px solid var(--green); border-radius:12px; padding:18px 20px; box-shadow:var(--shadow);}
+  .thesis .eyebrow{color:var(--green-soft)}
+
+  section{padding:38px 0; border-bottom:1px solid var(--line);}
+  .sec-head{display:flex; align-items:baseline; gap:12px; margin-bottom:22px;}
+  .sec-head .num{font-family:"IBM Plex Mono",monospace; color:var(--faint); font-size:.85rem;}
+
+  .tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px;}
+  .tile{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px 16px 14px; box-shadow:var(--shadow);}
+  .tile .n{font-family:"Fraunces",serif; font-size:1.8rem; font-weight:600; font-variant-numeric:tabular-nums; letter-spacing:-.01em;}
+  .tile .l{font-size:.82rem; color:var(--muted); margin-top:3px;}
+  .tile .s{font-size:.74rem; color:var(--faint); margin-top:6px;}
+  .up{color:var(--good)} .down{color:var(--crit)}
+
+  .bars{display:flex; flex-direction:column; gap:11px; margin-top:6px;}
+  .bar{display:grid; grid-template-columns:132px 1fr auto; align-items:center; gap:12px; font-size:.9rem;}
+  .bar .track{height:10px; background:var(--surface-2); border-radius:99px; overflow:hidden;}
+  .bar .fill{height:100%; border-radius:99px; background:linear-gradient(90deg,var(--green),var(--green-soft));}
+  .bar .fill.amber{background:linear-gradient(90deg,var(--amber),#dd9a5b);}
+  .bar .v{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; color:var(--muted); font-size:.85rem;}
+  .bar .lab{color:var(--ink)}
+
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:14px;}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px; box-shadow:var(--shadow);}
+  .card h3{margin-bottom:6px} .card p{font-size:.9rem; color:var(--muted)}
+  .tag{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.08em;
+    text-transform:uppercase; padding:3px 8px; border-radius:99px; border:1px solid var(--line-strong); color:var(--faint); margin-top:10px;}
+  .tag.hi{color:var(--green-soft); border-color:var(--green-soft)}
+
+  ul.clean{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:12px;}
+  ul.clean li{padding-left:20px; position:relative; color:var(--muted);}
+  ul.clean li::before{content:""; position:absolute; left:0; top:.62em; width:6px; height:6px; border-radius:50%; background:var(--amber);}
+  ul.clean b{color:var(--ink); font-weight:600;}
+
+  .piece{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:18px 18px 16px; box-shadow:var(--shadow); margin-bottom:14px;}
+  .piece .top{display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:10px;}
+  .piece .fmt{font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; color:var(--amber);}
+  .piece .score{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-size:.8rem; color:var(--faint);}
+  .opt{border-top:1px dashed var(--line); padding-top:9px; margin-top:9px; font-size:.93rem;}
+  .opt .k{font-family:"IBM Plex Mono",monospace; color:var(--green-soft); font-weight:500; margin-right:6px;}
+  .opt .q{color:var(--ink); font-style:italic;}
+  .opt .m{display:block; color:var(--faint); font-size:.8rem; margin-top:3px;}
+
+  .gate{margin-top:24px; background:var(--surface-2); border:1px solid var(--line-strong); border-radius:14px; padding:20px 22px;}
+  .conf{font-family:"IBM Plex Mono",monospace; font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; padding:2px 7px; border-radius:5px; background:var(--surface-2); color:var(--faint); border:1px solid var(--line);}
+  .conf.hi{color:var(--good); border-color:var(--good)}
+  footer{padding:30px 0 10px; color:var(--faint); font-size:.8rem;}
+  footer a{color:var(--faint)}
+  @media (max-width:560px){ .bar{grid-template-columns:96px 1fr auto; gap:8px} }
+</style>
+
+<div class="wrap">
+  <header class="hd">
+    <div class="kicker">
+      <span class="eyebrow">VITÓRIA OS · Dossiê de Inteligência</span>
+      <span class="dot"></span>
+      <span class="mono" style="font-size:.8rem;color:var(--faint)">Semana 2026·W36 — 28 ago</span>
+    </div>
+    <h1>O gargalo não é alcance.<br>É quem decide te seguir.</h1>
+    <p class="lede" style="margin-top:18px">Você já descobre muita gente. O que trava o crescimento é a conversão em seguidor — e os dados dizem exatamente onde mexer.</p>
+    <div class="thesis">
+      <div class="eyebrow">Tese da semana</div>
+      <p style="margin-top:8px">Dobrar em <b>Founder + Fé</b> (o que converte o público certo), usar o <b>TikTok como motor de descoberta</b> e o <b>carrossel para virar autoridade e seguidor</b>, entrando com legitimidade no <b>boom de wellness/bebida funcional</b> — cada peça com um motivo explícito para seguir.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head"><span class="num">01</span><h2>Sua performance</h2><span class="conf hi">Confiança alta · dados reais</span></div>
+    <div class="tiles">
+      <div class="tile"><div class="n">2.684</div><div class="l">Seguidores Instagram</div><div class="s up">+124 nos últimos 30 dias</div></div>
+      <div class="tile"><div class="n">1.096</div><div class="l">Seguidores TikTok</div><div class="s">89.154 views/mês · ~81× a base</div></div>
+      <div class="tile"><div class="n">~242,7 mil</div><div class="l">Views de conteúdo (IG, 30d)</div><div class="s">alcance bruto ~94,5 mil</div></div>
+      <div class="tile" style="border-color:var(--warn)"><div class="n down">0,51</div><div class="l">Follows por 1.000 views (IG)</div><div class="s warn" style="color:var(--warn)">o gargalo — sua maior alavanca</div></div>
+    </div>
+    <div style="margin-top:20px; background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px 18px; box-shadow:var(--shadow)">
+      <div class="eyebrow" style="color:var(--rose)">Autópsia · viral de 02/ago</div>
+      <p style="margin-top:8px;color:var(--muted)">O Reel na academia da Virgínia bateu <b class="mono" style="color:var(--ink)">46.547</b> de alcance (~15–40× sua mediana) — mas converteu na sua média baixa (<b class="mono" style="color:var(--ink)">~0,56</b>/1k). Foi <b>alcance emprestado</b>, público que veio pela Virgínia, fora do seu território. <b style="color:var(--ink)">Lição:</b> não repetir stunt off-brand; dobrar em founder/fé, que trazem o público certo.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="num">02</span><h2>Mercado</h2><span class="conf hi">Confiança alta · fontes ago/2026</span></div>
+    <p class="lede" style="margin-bottom:18px">O território onde você tem legitimidade dupla (Joy Power + inteligência da Milhão) está no maior momento da década.</p>
+    <div class="eyebrow" style="margin-bottom:10px">🇧🇷 Brasil — o dado mais forte</div>
+    <div class="bars" style="margin-bottom:8px">
+      <div class="bar"><span class="lab">Whey (volume)</span><span class="track"><span class="fill" style="width:100%"></span></span><span class="v">+124%</span></div>
+      <div class="bar"><span class="lab">Creatina (volume)</span><span class="track"><span class="fill" style="width:72%"></span></span><span class="v">+89%</span></div>
+      <div class="bar"><span class="lab">Suplementos (a.a.)</span><span class="track"><span class="fill amber" style="width:15%"></span></span><span class="v">+18%/ano</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-top:12px">Mercado BR de suplementos: <b class="mono" style="color:var(--ink)">R$ 22 bi</b>. Creatina e whey <b>saíram da academia e foram para o supermercado</b> — viraram rotina, não nicho fitness. Em alta: personalização, longevidade, saúde metabólica, clean-label, formatos do dia a dia (gummies, shots).</p>
+    <div class="tiles" style="margin-top:20px">
+      <div class="tile"><div class="n">US$ 107 bi</div><div class="l">Bebidas funcionais (global, 2026)</div><div class="s">de US$ 92 bi — em aceleração</div></div>
+      <div class="tile"><div class="n">Saúde da mulher</div><div class="l">a lane que quase ninguém trata direito</div><div class="s">+ era GLP-1 / gut health</div></div>
+    </div>
+    <p style="color:var(--muted);font-size:.94rem;margin-top:18px;border-left:3px solid var(--amber);padding-left:14px"><b style="color:var(--ink)">A leitura que só você pode dar (de dentro):</b> <span style="font-style:italic">“o suplemento saiu da academia e virou rotina — e isso muda como se constrói uma marca de wellness.”</span></p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="num">03</span><h2>Trends de formato</h2><span class="conf hi">Confiança alta · dados de plataforma</span></div>
+    <p class="lede" style="margin-bottom:18px">Engajamento por formato (Q2/2026) — e o que isso significa para uma conta do seu tamanho.</p>
+    <div class="bars">
+      <div class="bar"><span class="lab">Carrossel</span><span class="track"><span class="fill" style="width:100%"></span></span><span class="v">0,50%</span></div>
+      <div class="bar"><span class="lab">Reels</span><span class="track"><span class="fill" style="width:96%"></span></span><span class="v">0,48%</span></div>
+      <div class="bar"><span class="lab">Foto / estático</span><span class="track"><span class="fill amber" style="width:66%"></span></span><span class="v">0,33%</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-top:14px">Carrossel gera <b>3× mais engajamento</b> que foto única e seu DM-share pesa <b>3–5×</b> no algoritmo. Para contas &lt;50k (seu caso): <b style="color:var(--ink)">Reels descobrem · carrossel converte · foto conecta.</b></p>
+    <div class="cards" style="margin-top:22px">
+      <div class="card"><h3>Data carousel</h3><p>1 dado forte → leitura → implicação. Alto save entre profissionais.</p><span class="tag hi">fit ★★★</span></div>
+      <div class="card"><h3>Contrast</h3><p>Dois lados opostos, split-screen: expectativa vs realidade.</p><span class="tag hi">fit ★★★</span></div>
+      <div class="card"><h3>Seamless panoramic</h3><p>Uma imagem contínua atravessando os slides — ideal p/ obra Joyeat.</p><span class="tag">fit ★★</span></div>
+      <div class="card"><h3>Founder confession</h3><p>“Eu achava que…” — sua voz, forte no TikTok para descoberta.</p><span class="tag hi">fit ★★★</span></div>
+    </div>
+    <p style="color:var(--faint);font-size:.82rem;margin-top:16px">Regra: 8–10 slides, gancho nos 2 primeiros, recompensa no fim. Todo carrossel de autoridade termina com um “motivo para seguir”.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="num">04</span><h2>Análise & tese editorial</h2></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px" class="thesisgrid">
+      <div>
+        <div class="eyebrow" style="color:var(--good)">Dobrar</div>
+        <ul class="clean" style="margin-top:12px">
+          <li><b>Founder / build-in-public</b> — Joyeat em obra, sua saída da empresa familiar.</li>
+          <li><b>Fé</b> — quando verdadeira; converte o público certo.</li>
+          <li><b>Market POV</b> — a leitura de mercado que só você tem.</li>
+          <li><b>Carrossel de autoridade</b> — para virar save + seguidor.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow" style="color:var(--crit)">Reduzir</div>
+        <ul class="clean" style="margin-top:12px">
+          <li><b>Stunt de alcance emprestado</b> (marcar mega-influencer em lifestyle puro) — público errado.</li>
+          <li><b>Foto “bonita” sem tese</b> — baixo alcance e sem conversão.</li>
+          <li><b>Repetir formato/hook</b> a ponto de saturar.</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.86rem;margin-top:20px"><b style="color:var(--ink)">Creator Intelligence:</b> aguardando você enviar 10–20 @s para o radar rodar com alvos reais. Blueprint founder-led de referência hoje: Mari Llewellyn / Bloom (série repetível de “construindo a marca em público” + produto na rotina — mecanismo, não cópia).</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="num">05</span><h2>Plano da semana</h2><span class="conf">aguardando Gate 1</span></div>
+    <p class="lede" style="margin-bottom:20px">Reels para descobrir · carrosséis para converter · foto para conectar. Escolha uma opção de cada peça.</p>
+
+    <div class="piece">
+      <div class="top"><span class="fmt">Peça 1 · TikTok + Reel · Founder confession</span><span class="score">score 80–88</span></div>
+      <div class="opt"><span class="k">A</span><span class="q">“Eu achava que sair da empresa da minha família era o fim da minha carreira. Foi o começo.”</span><span class="m">Growth + followability · lo-fi · esforço baixo · score 88</span></div>
+      <div class="opt"><span class="k">B</span><span class="q">“Ninguém fala do preço de ser ‘a filha do dono’.”</span><span class="m">Sucessão · autoridade + conexão · score 84</span></div>
+      <div class="opt"><span class="k">C</span><span class="q">“Passei por todas as áreas de uma indústria antes dos 20. O que aprendi:”</span><span class="m">Founder/business · score 80</span></div>
+    </div>
+
+    <div class="piece">
+      <div class="top"><span class="fmt">Peça 2 · Reel + LinkedIn · Market POV</span><span class="score">score 80–86</span></div>
+      <div class="opt"><span class="k">A</span><span class="q">“Tem uma mudança no mercado de wellness que eu acho muito maior do que ‘saudável’.”</span><span class="m">Autoridade + networking · score 86</span></div>
+      <div class="opt"><span class="k">B</span><span class="q">“Bebida funcional virou mercado de US$100 bilhões. E quase ninguém olha pra essa parte:”</span><span class="m">Saúde da mulher / GLP-1 · score 82</span></div>
+      <div class="opt"><span class="k">C</span><span class="q">“Todo mundo quer lançar suplemento agora. Por que eu decidi começar diferente.”</span><span class="m">Founder / Joy Power · score 80</span></div>
+    </div>
+
+    <div class="piece">
+      <div class="top"><span class="fmt">Peça 5 · Carrossel IG · Market Intelligence</span><span class="score">score 89 · o mais alto</span></div>
+      <div class="opt"><span class="k">A</span><span class="q">“Creatina cresceu 89% e whey 124% no Brasil. O que isso REALMENTE diz sobre o consumidor:”</span><span class="m">Data carousel · autoridade + save + seguir · score 89</span></div>
+      <div class="opt"><span class="k">B</span><span class="q">“Eu achava que abrir empresa era sobre produto ↔ é sobre escolhas.”</span><span class="m">Contrast carousel · founder · score 85</span></div>
+      <div class="opt"><span class="k">C</span><span class="q">“O maior mercado de wellness dos próximos anos é feminino.”</span><span class="m">Saúde da mulher · score 83</span></div>
+    </div>
+
+    <div class="piece">
+      <div class="top"><span class="fmt">Peça 3 · Build in Public (obra Joyeat) · Peça 6 · Fé</span><span class="score">score 78–85</span></div>
+      <div class="opt"><span class="k">3A</span><span class="q">“Isso aqui ainda é uma parede. Mas eu já consigo ver a loja funcionando.”</span><span class="m">Narrado + b-roll ou carrossel panorâmico · score 85</span></div>
+      <div class="opt"><span class="k">6A</span><span class="q">Reflexão real da missa/Evangelho da semana — começando pela experiência.</span><span class="m">Só se for verdadeira nesta semana · conexão · score 83</span></div>
+    </div>
+
+    <p style="color:var(--faint);font-size:.82rem;margin-top:6px">📲 Stories: espinha diária (manhã bastidor+caixinha · meio-dia construção em público · tarde desdobra a peça do dia · noite enquete/opinião).</p>
+
+    <div class="gate">
+      <div class="eyebrow" style="color:var(--green-soft)">Gate 1 · sua seleção</div>
+      <p style="margin-top:8px;color:var(--muted)">Responda: <b style="color:var(--ink)">“1: A · 2: A · 5: A · 3: A · 6: aprovo”</b> — ou ajuste (mais pessoal / outro hook / vira carrossel / quero outra opção). Só escrevo os roteiros e monto as artes depois da sua escolha.</p>
+      <p style="margin-top:12px;color:var(--muted)"><b style="color:var(--ink)">1 pergunta:</b> sua agenda voltou vazia — além de obra Joyeat, Joy Power, academia, missa e cursos, vai acontecer algo diferente esta semana (reunião, viagem, evento, marco do noivado) que valha virar conteúdo?</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Gerado pelo VITÓRIA OS · ciclo semanal autônomo · racional completo em <span class="mono">content/weekly/2026-W36/</span>.</p>
+    <p style="margin-top:6px">Fontes: Supermetrics (IG/TikTok, dados próprios) · Food Connection, Times Brasil/CNBC, FoodBiz (mercado BR) · Forbes, FoodIngredientsFirst (global) · TrueFuture, Creatorflow, New Engen (formatos).</p>
+  </footer>
+</div>
