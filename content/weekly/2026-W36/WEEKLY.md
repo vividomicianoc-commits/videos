@@ -74,6 +74,16 @@ Entra no movimento de mercado com leitura de dentro — atrai empresário/market
 - **A** — Reflexão real a partir do Evangelho/missa da semana: começar pela **experiência**, não pela passagem (*"essa semana uma coisa me tocou…"*). · Pilar: Fé · Objetivo: Connection+Followability · Formato: lo-fi/quote · Esforço: baixo · **Score 83** · Plano B: carrossel com a reflexão.
 > Guardrail: só se for verdadeira nesta semana (fé nunca é preenchimento de calendário).
 
+### 🟩 PEÇA 5 — CARROSSEL (IG) · MARKET INTELLIGENCE (autoridade + save + seguir)
+Formato que mais converte engajamento p/ contas <50k. Data carousel, 8–10 slides, recompensa no fim.
+- **A** — *"Creatina cresceu 89% e whey 124% no Brasil. O que isso REALMENTE diz sobre o consumidor:"* → slides com o dado → 2ª camada ("saiu da academia, virou rotina") → o que isso muda p/ quem constrói marca → slide final: motivo para seguir. · Pilar: Market Intelligence/Founder · Objetivo: **Authority+Followability** · **Score 89** · foto/dados.
+- **B** — **Contrast carousel:** *"Eu achava que abrir uma empresa era sobre produto ↔ é sobre escolhas"* (split-screen, expectativa vs realidade). · Pilar: Founder · **Score 85**.
+- **C** — *"O maior mercado de wellness dos próximos anos é feminino. E quase ninguém está falando disso direito."* (saúde da mulher / era GLP-1). · **Score 83**.
+
+### 🟩 PEÇA 6 — CARROSSEL/FOTO · BUILD IN PUBLIC ou FÉ (conexão)
+- **A (seamless panoramic):** obra Joyeat — 1 imagem contínua atravessando os slides: "projeto → realidade". · Pilar: Founder/Joyeat · **Score 82**.
+- **B (foto + tese):** photo dump real da semana + legenda com uma leitura (founder ou fé), que puxa comentário — conexão, não alcance. · **Score 78**.
+
 ### 📲 STORIES — espinha diária (4–8/dia, natural)
 - **Manhã:** bastidor real (treino com o Marcão / devocional / café) + 1 pergunta na caixinha ligada ao tema do dia.
 - **Meio-dia:** progresso de trabalho (obra/Joy Power/reunião) — "construindo em público" em formato leve.
