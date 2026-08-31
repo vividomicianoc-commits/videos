@@ -1,0 +1,146 @@
+<title>Estudo de Mercado por Unidade</title>
+<meta name="description" content="Estudo de mercado separado por negócio — Joyeat, Joy Power, Vitória creator, UGC e Milhão Ingredients — com implicação e ângulos de conteúdo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --ground:#faf6f0; --surface:#fffdfa; --surface-2:#f3ece1;
+    --ink:#22271f; --muted:#5f6a5a; --faint:#8a9384;
+    --line:#e4dccf; --line-strong:#d2c7b4;
+    --joyeat:#2f5d43; --joypower:#c9772f; --vitoria:#b06a72; --ugc:#4a7a5c; --milhao:#7a6a4f;
+    --shadow:0 1px 2px rgba(34,39,31,.05), 0 8px 24px rgba(34,39,31,.06);
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#14160f; --surface:#1c1f17; --surface-2:#242820;
+    --ink:#ede7dc; --muted:#a9b0a1; --faint:#7d8578;
+    --line:#2f342a; --line-strong:#3d4437;
+    --joyeat:#7fb894; --joypower:#e2954f; --vitoria:#cf8890; --ugc:#8fc0a1; --milhao:#c4b088;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#14160f; --surface:#1c1f17; --surface-2:#242820;
+    --ink:#ede7dc; --muted:#a9b0a1; --faint:#7d8578;
+    --line:#2f342a; --line-strong:#3d4437;
+    --joyeat:#7fb894; --joypower:#e2954f; --vitoria:#cf8890; --ugc:#8fc0a1; --milhao:#c4b088;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{background:var(--ground); color:var(--ink); font-family:"Figtree",system-ui,sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased; margin:0;}
+  .wrap{max-width:880px; margin:0 auto; padding:clamp(20px,5vw,60px) clamp(18px,5vw,40px);}
+  h1{font-family:"Fraunces",Georgia,serif; font-weight:500; font-size:clamp(2rem,5.5vw,3.1rem); letter-spacing:-.01em; line-height:1.12; text-wrap:balance; margin:0;}
+  h2{font-family:"Fraunces",serif; font-weight:600; font-size:1.5rem; margin:0; letter-spacing:-.01em;}
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; font-weight:500;}
+  .mono{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;}
+  header.hd{border-bottom:1px solid var(--line-strong); padding-bottom:26px; margin-bottom:30px;}
+  .lede{font-size:1.1rem; color:var(--muted); max-width:62ch; margin-top:16px;}
+
+  .unit{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:22px 22px 20px; box-shadow:var(--shadow); margin-bottom:20px; border-top:4px solid var(--ac);}
+  .unit .head{display:flex; align-items:center; gap:12px; margin-bottom:4px;}
+  .unit .ic{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;font-size:1.1rem; background:color-mix(in srgb, var(--ac) 15%, transparent); border:1px solid color-mix(in srgb,var(--ac) 35%, transparent);}
+  .unit h2{color:var(--ac)}
+  .unit .cat{font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--faint);}
+  .tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px; margin:16px 0;}
+  .tile{background:var(--surface-2); border-radius:10px; padding:12px 13px;}
+  .tile .n{font-family:"Fraunces",serif; font-weight:600; font-size:1.35rem; font-variant-numeric:tabular-nums; color:var(--ac); line-height:1.1;}
+  .tile .l{font-size:.76rem; color:var(--muted); margin-top:4px;}
+  .row{margin-top:12px; font-size:.94rem;}
+  .row .k{font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.1em; text-transform:uppercase; color:var(--faint); display:block; margin-bottom:3px;}
+  .row.imp{background:color-mix(in srgb,var(--ac) 8%, transparent); border-left:3px solid var(--ac); border-radius:0 8px 8px 0; padding:10px 14px;}
+  .row .k.imp{color:var(--ac)}
+  .angles{display:flex; flex-wrap:wrap; gap:7px; margin-top:8px;}
+  .angles span{font-size:.8rem; background:var(--surface-2); border:1px solid var(--line); border-radius:99px; padding:4px 11px; color:var(--muted);}
+  .never{color:var(--vitoria); font-size:.84rem; margin-top:10px;}
+  .src{font-size:.74rem; color:var(--faint); margin-top:12px;}
+  .src a{color:var(--faint)}
+  .flywheel{background:var(--surface-2); border:1px dashed var(--line-strong); border-radius:14px; padding:20px 22px; margin-top:8px;}
+  footer{color:var(--faint); font-size:.8rem; margin-top:28px; padding-top:18px; border-top:1px solid var(--line);}
+</style>
+
+<div class="wrap">
+  <header class="hd">
+    <span class="eyebrow" style="color:var(--joypower)">VITÓRIA OS · Estudo de Mercado</span>
+    <h1 style="margin-top:14px">Cinco negócios,<br>cinco mercados diferentes.</h1>
+    <p class="lede">Cada unidade do ecossistema compete num jogo distinto. Aqui, o mercado de cada uma — com o dado, a implicação e os ângulos de conteúdo. Dados de ago/2026, com fontes.</p>
+  </header>
+
+  <!-- JOYEAT -->
+  <div class="unit" style="--ac:var(--joyeat)">
+    <div class="head"><span class="ic">🥗</span><div><h2>Joyeat</h2><span class="cat">Alimentação saudável · fast-casual</span></div></div>
+    <div class="tiles">
+      <div class="tile"><div class="n">Saudável + sabor</div><div class="l">o que o restaurante BR busca reconciliar</div></div>
+      <div class="tile"><div class="n">Zero · kombucha</div><div class="l">categorias em expansão no varejo</div></div>
+      <div class="tile"><div class="n">Conveniência</div><div class="l">+ identidade regional valorizadas</div></div>
+    </div>
+    <div class="row"><span class="k">Mercado</span>Wellness invadiu varejo e restaurantes no Brasil; o consumidor lê rótulo e quer saudável que dá vontade. "Ser saudável" virou expectativa — não diferencia mais sozinho.</div>
+    <div class="row imp"><span class="k imp">Implicação</span>Vento a favor para fast-casual saudável <b>desejável</b> (não "fitness"). A diferenciação é <b>experiência + desejo + conveniência</b>.</div>
+    <div class="row"><span class="k">Ângulos de conteúdo</span><div class="angles"><span>build-in-public da obra</span><span>“por que não é comida fitness”</span><span>decisão de cardápio/embalagem</span></div></div>
+    <p class="src">Fontes: <a href="https://timesbrasil.com.br/colunas/brazil-health/wellness-em-alta-o-que-esta-mudando-no-seu-bar-restaurante-e-no-supermercado/">Times Brasil/CNBC</a> · <a href="https://foodbizbrasil.com/tendencias/varejo-alimentar-tendencias-wellness-fitness-2026/">FoodBiz</a> · <a href="https://afrebras.org.br/noticias/conheca-as-principais-tendencias-do-setor-de-alimentos-e-bebidas-para-2026/">Afrebras</a></p>
+  </div>
+
+  <!-- JOY POWER -->
+  <div class="unit" style="--ac:var(--joypower)">
+    <div class="head"><span class="ic">💪</span><div><h2>Joy Power</h2><span class="cat">Suplementos · wellness · performance</span></div></div>
+    <div class="tiles">
+      <div class="tile"><div class="n">+124%</div><div class="l">whey (volume, BR)</div></div>
+      <div class="tile"><div class="n">+89%</div><div class="l">creatina (volume, BR)</div></div>
+      <div class="tile"><div class="n">R$ 22 bi</div><div class="l">suplementos BR · +18%/ano</div></div>
+      <div class="tile"><div class="n">US$ 107 bi</div><div class="l">bebida funcional (global)</div></div>
+    </div>
+    <div class="row"><span class="k">Mercado</span>Creatina e whey saíram da academia e foram para o supermercado — viraram rotina. Em alta: <b>saúde da mulher, era GLP-1, longevidade, clean-label</b> e formatos do dia a dia (gummies, shots).</div>
+    <div class="row imp"><span class="k imp">Implicação</span>Posicionar como <b>wellness/rotina, não academia</b>. <b>Saúde da mulher = white space</b> com fit direto. Formatos que entram no cotidiano.</div>
+    <div class="row"><span class="k">Ângulos de conteúdo</span><div class="angles"><span>build-in-public de sabor/formulação</span><span>“suplemento virou rotina”</span><span>por que começar diferente</span></div></div>
+    <p class="src">Fontes: <a href="https://www.foodconnection.com.br/especialistas/os-pilares-que-definiram-o-mercado-de-suplementos-no-brasil-e-o-que-esperar-em-2026/">Food Connection (BR)</a> · <a href="https://www.forbes.com/sites/noelburgess/2026/04/22/these-functional-beverages-are-taking-over-in-2026-but-are-they-actually-healthy/">Forbes</a> · <a href="https://www.foodingredientsfirst.com/news/functional-beverages-health-wellness-trends.html">FoodIngredientsFirst</a></p>
+  </div>
+
+  <!-- VITÓRIA -->
+  <div class="unit" style="--ac:var(--vitoria)">
+    <div class="head"><span class="ic">✨</span><div><h2>Vitória — creator</h2><span class="cat">Marca pessoal · influencer</span></div></div>
+    <div class="tiles">
+      <div class="tile"><div class="n">US$ 234 bi</div><div class="l">creator economy 2026 · CAGR ~22%</div></div>
+      <div class="tile"><div class="n">106 mi</div><div class="l">creators no Brasil (hub LatAm)</div></div>
+      <div class="tile"><div class="n">2,4–6,7×</div><div class="l">micro engaja mais que macro</div></div>
+      <div class="tile"><div class="n">só 9%</div><div class="l">dos creators BR vivem disso</div></div>
+    </div>
+    <div class="row"><span class="k">Mercado</span>Brasil lidera a creator economy da LatAm, mas pouquíssimos monetizam. Micro/nicho engaja muito mais que macro. O valor migrou de <b>volume de seguidores</b> para <b>público qualificado</b>.</div>
+    <div class="row imp"><span class="k imp">Implicação</span>O espaço <b>“empresária com audiência / founder-creator”</b> é pouco ocupado no BR — território da Vitória. Followability (público certo) &gt; alcance bruto.</div>
+    <div class="row"><span class="k">Ângulos de conteúdo</span><div class="angles"><span>founder-led content</span><span>market POV</span><span>sucessão</span></div></div>
+    <p class="src">Fontes: <a href="https://theinfluencermarketingfactory.com/creator-economy/">Influencer Marketing Factory</a> · <a href="https://inbeat.agency/blog/creator-economy-statistics">inBeat</a></p>
+  </div>
+
+  <!-- UGC -->
+  <div class="unit" style="--ac:var(--ugc)">
+    <div class="head"><span class="ic">🎬</span><div><h2>UGC</h2><span class="cat">Conteúdo para marcas · frente comercial</span></div></div>
+    <div class="tiles">
+      <div class="tile"><div class="n">+93%</div><div class="l">crescimento de creators de UGC</div></div>
+      <div class="tile"><div class="n">30–80%</div><div class="l">mais barato que influencer marketing</div></div>
+      <div class="tile"><div class="n">US$150–212</div><div class="l">rate médio por peça (+ direitos)</div></div>
+    </div>
+    <div class="row"><span class="k">Mercado</span>UGC cresce rápido e <b>supera branded content</b> custando muito menos. Produção leve, alta demanda das marcas.</div>
+    <div class="row imp"><span class="k imp">Implicação</span>Frente comercial real e barata — mas cada parceria precisa <b>preservar posicionamento</b> (fit de marca/audiência/comercial). Priorizar premium/wellness/beauty com público A/AA.</div>
+    <div class="row"><span class="k">Ângulos de conteúdo</span><div class="angles"><span>UGC como creator, com fit</span><span>portfólio sem diluir identidade</span></div></div>
+    <p class="src">Fontes: <a href="https://whop.com/blog/ugc-statistics/">Whop</a> · <a href="https://brandlens.io/blog/creator-economy-live-what-brands-need-to-know-about-ugc-creators-the-future-of-marketing/">BrandLens</a></p>
+  </div>
+
+  <!-- MILHÃO -->
+  <div class="unit" style="--ac:var(--milhao)">
+    <div class="head"><span class="ic">🏭</span><div><h2>Milhão Ingredients</h2><span class="cat">Indústria de ingredientes · B2B</span></div></div>
+    <div class="tiles">
+      <div class="tile"><div class="n">US$ 6,2 bi</div><div class="l">ingredientes alimentícios BR (2026)</div></div>
+      <div class="tile"><div class="n">US$ 8–10 bi</div><div class="l">functional ingredients BR até 2035</div></div>
+      <div class="tile"><div class="n">Pea protein</div><div class="l">ganhando share (clean-label)</div></div>
+    </div>
+    <div class="row"><span class="k">Mercado</span>Ingredientes funcionais e specialty proteins crescem bem acima da média. Fornecedores migram de <b>commodity → clean-label/biosolutions</b> (mais margem por kg, menos volume).</div>
+    <div class="row imp"><span class="k imp">Implicação</span>A tese de valor é <b>margem via clean-label/funcional</b>, não volume commodity — casa com a experiência de inteligência de mercado da Vitória.</div>
+    <div class="row"><span class="k">Ângulos de conteúdo (só p/ Vitória)</span><div class="angles"><span>sucessão</span><span>B2B / indústria</span><span>leitura de mercado (LinkedIn)</span></div></div>
+    <p class="never">⚠ Nunca: dados confidenciais, clientes, margens ou estratégia da Milhão.</p>
+    <p class="src">Fontes: <a href="https://www.mordorintelligence.com/industry-reports/brazil-food-ingredient-market">Mordor</a> · <a href="https://www.imarcgroup.com/brazil-food-ingredient-market">IMARC</a> · <a href="https://www.mbrfingredients.com.br/en/blog/posts/discover-the-main-food-ingredients-trends-for-2026-efficiency-sustainability-and-sensory-experience/">MBRF</a></p>
+  </div>
+
+  <div class="flywheel">
+    <span class="eyebrow" style="color:var(--joyeat)">Como conecta</span>
+    <p style="margin-top:10px;color:var(--muted)"><b style="color:var(--ink)">Vitória</b> (creator, público qualificado) distribui <b style="color:var(--joyeat)">Joyeat</b> e <b style="color:var(--joypower)">Joy Power</b> → as marcas geram histórias e dados → viram conteúdo → mais audiência. A <b style="color:var(--milhao)">Milhão</b> dá lastro de autoridade (B2B, sucessão, inteligência). O <b style="color:var(--ugc)">UGC</b> é receita de curto prazo que não pode diluir o posicionamento.</p>
+  </div>
+
+  <footer>Gerado pelo VITÓRIA OS · racional completo em <span class="mono">content/weekly/2026-W36/03_MARKET.md</span> · dados ago/2026.</footer>
+</div>
