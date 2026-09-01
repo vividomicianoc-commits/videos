@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "source": "Metricool MCP (getAnalyticsDataByMetrics, getBestTimeToPostByNetwork)",
+    "brand_id": 6814348,
+    "owner": "vividomicianoc@hotmail.com",
+    "timezone": "America/Sao_Paulo",
+    "captured_at": "2026-09-01",
+    "window": "2026-08-02 a 2026-08-31 (30d) + semana 24-31/ago",
+    "confidence": "ALTA (dado próprio, vivo) — substitui estimativas setoriais",
+    "note_reconciliacao": "IGEV05/account views só populou a partir de ~24/ago no retorno da API (=47.814 é parcial, tratar como piso). Reels views (IGEV23=109.190) é a métrica de descoberta mais confiável do IG. No TikTok, TKEV02=views de vídeos publicados no período (28.332); difere do 'account video views' de 89k lido antes via Supermetrics (definições diferentes) — ambos válidos, medem coisas distintas."
+  },
+  "instagram_30d": {
+    "followers_atual": 2706,
+    "followers_delta_desde_2026-08-19": 22,
+    "posts_publicados": 15,
+    "reels_views": 109190,
+    "reels_reach": 50443,
+    "account_reach_soma_diaria": 108443,
+    "account_views_parcial": 47814,
+    "interacoes_posts": 3902,
+    "likes_total": 3165,
+    "likes_reels": 2917,
+    "likes_posts": 248,
+    "comentarios_total": 250,
+    "comentarios_reels": 211,
+    "comentarios_posts": 39,
+    "shares_total": 409,
+    "shares_reels": 402,
+    "shares_posts": 7,
+    "saves_posts": 4,
+    "accounts_engaged": 4377,
+    "ratio_comentarios_por_like": 0.079,
+    "viral_02_ago": {"reels_views_dia": 71703, "reels_reach_dia": 25438, "account_reach_dia": 26346}
+  },
+  "instagram_semana_24-31_ago": {
+    "account_views": 47814,
+    "reach": 17690,
+    "reels_views": 3910,
+    "interacoes_posts": 181,
+    "accounts_engaged": 480
+  },
+  "tiktok_30d": {
+    "followers_atual": 1108,
+    "followers_delta_desde_2026-08-19": 12,
+    "videos_publicados": 23,
+    "views_videos_periodo": 28332,
+    "reach": 12777,
+    "likes": 1114,
+    "comentarios": 34,
+    "shares": 20,
+    "profile_views": 900
+  },
+  "tiktok_semana_24-31_ago": {
+    "views": 2633,
+    "likes": 169,
+    "comentarios": 10,
+    "shares": 3,
+    "profile_views": 57
+  },
+  "followability": {
+    "leitura": "IG cresceu ~+22 seguidores em ~12 dias sobre ~109k reels views / ~48k account views no mês. Conversão follow ainda é o gargalo #1 (follows/1k views baixíssimo, ~0,2-0,5). Descoberta forte, conversão fraca.",
+    "confianca_direcao": "ALTA",
+    "confianca_valor_exato": "MEDIA (IGEV03 follows-net veio esparso na API)"
+  },
+  "melhor_horario_instagram": {
+    "fonte": "getBestTimeToPostByNetwork (real)",
+    "dias_uteis_manha": "10h-12h = pico absoluto (Sex 10h=6734, Qua 10h=6506, Qui 10h=6275)",
+    "dias_uteis_tarde_noite": "17h-19h = segundo pico (Qui 18h=5078, Qua 18h=4869, Ter 18h=4788)",
+    "melhores_dias": "Quarta, Sexta e Quinta > Segunda/Terça > Sábado/Domingo (fim de semana ~45% mais fraco)",
+    "recomendacao_janela": "Publicar peças-âncora em dia útil (Qua/Qui/Sex) às 10h-11h ou 18h; evitar madrugada e fim de semana para growth."
+  }
+}

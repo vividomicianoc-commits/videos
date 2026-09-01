@@ -31,10 +31,15 @@ o motor de marca no setor.
 da Milhão). Segunda camada: *"quando 'saudável' vira expectativa, a diferenciação vai pra outra
 camada"* — tese que só ela, construindo uma marca de wellness agora, pode contar de dentro.
 
-## 04 · PERFORMANCE & AUDIENCE (real — confiança ALTA)
-IG 2.684 (+124/30d) · TikTok 1.096 · TikTok 89k views/mês (81× a base) · **follows/1k ≈ 0,51 (gargalo)**.
-Autópsia 02/ago: viral de alcance emprestado (@virginia) converteu na média baixa → **não repetir
-stunt off-brand**. Founder + Fé = público certo. **Comentários baixos vs likes** → usar hooks que puxam comentário.
+## 04 · PERFORMANCE & AUDIENCE (real — Metricool brand 6814348, 30d ago · confiança ALTA)
+**IG 2.706 seguidores** · **Reels views 109.190/mês** (o motor de descoberta) · Reels reach 50.443 ·
+15 posts · **accounts engaged 4.377**. **TikTok 1.108** · 28.332 views de vídeo no período · reach 12.777 · 23 vídeos.
+- **Gargalo confirmado (mais forte que a estimativa):** +22 seguidores em ~12 dias sobre ~109k reels views → **conversão follow é o gargalo #1**. Descoberta forte, follow fraco.
+- **Comentários x likes = 0,079** (250 comentários vs 3.165 likes) → **hooks que puxam comentário**.
+- **Saves quase zero (4)** → falta comportamento de "autoridade/salvar" → **carrossel de dados é a alavanca**.
+- **Reels dominam** (likes reels 2.917 vs posts 248; shares reels 402 vs posts 7) → vídeo descobre, mas não converte seguidor sozinho.
+- Autópsia 02/ago: pico de 71.703 reels views num dia (alcance emprestado @virginia) converteu na média baixa → **não repetir stunt off-brand**. Founder + Fé = público certo.
+**Melhor horário (real):** dia útil (Qua/Qui/Sex) às **10h-11h** ou **18h**; fim de semana ~45% mais fraco.
 
 ## 05 · EDITORIAL THESIS
 - **Territórios prioritários:** FOUNDER/BUILD-IN-PUBLIC ⭐ · FÉ · MARKET INTELLIGENCE (wellness/functional) · SUCESSÃO.
@@ -52,7 +57,7 @@ Todo Reel tem Plano B (carrossel/estático) já previsto abaixo.
 # 07 · WEEKLY CONTENT PLAN ⭐ (o que você aprova)
 
 > Cadência realista de founder (qualidade > volume): **4 peças âncora + Stories diários**.
-> Horários são sugestão inicial (sem dado próprio de horário ainda). `[confirmar na agenda]`.
+> **Horários reais (Metricool):** publicar âncoras em **dia útil (Qua/Qui/Sex) às 10h-11h ou 18h**. Fim de semana só para conexão/Stories.
 
 ### 🟢 PEÇA 1 — TikTok + Reel · FOUNDER CONFESSION (âncora de descoberta)
 Ataca o gargalo: hook de founder no motor de descoberta (TikTok), com motivo-para-seguir.
